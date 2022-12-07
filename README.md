@@ -34,17 +34,17 @@
 | ---------- | --------------- | ----------------------- |
 | GET        | /expenses      | List By (day, month, year)  |
 | POST       | /expenses      | Create Expenses        |
-| PUT        | /expenses /:id | Update Expenses        |
+| PUT        | /expenses /:id | Edit Expenses        |
 | DELETE     | /expenses /:id | Delete Expenses        |
 
 ### **Category  Route**
 
 | **method** | **link**        | **Description**         |
 | ---------- | --------------- | ----------------------- |
-| GET        | /expenses      | List Category  |
-| GET        | /driverinfo/:id | Get Specific Category |
-| POST       | /expenses      | Create Category        |
-| PUT        | /expenses /:id | Update Category        |
+| GET        | /category      | List Category  |
+| GET        | /category/:id | Get Specific Category |
+| POST       | /category      | Create Category        |
+| PUT        | /category /:id | Edit Category        |
 
 
 ## Installation
