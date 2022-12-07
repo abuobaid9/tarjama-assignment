@@ -6,7 +6,7 @@ const router = express.Router();
 router.post('/signin', async function (req: any, res: any) {
   try {
     const data = await service.signin(req.body.username, req.body.password);
-    res.cookie('token', data.cookie, { httpOnly: true });
+    res.cookie('token', data.cookies, { httpOnly: true });
     res.cookies
     res.status(data.status).send(data.response);
   } catch (error) {
