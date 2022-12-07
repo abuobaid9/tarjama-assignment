@@ -5,7 +5,7 @@ const expenseModel = (sequelize:any,DataTypes:any)  =>
         allowNull: false,
     },
     amount:{
-        type: DataTypes.DOUBLE,
+        type: DataTypes.FLOAT,
         allowNull:false,
     }
   });
